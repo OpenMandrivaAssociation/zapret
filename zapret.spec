@@ -7,6 +7,7 @@ License:        GPLv2+
 Group:          Monitoring
 Url:            https://github.com/bol-van/zapret
 Source0:	https://github.com/bol-van/zapret/%{name}-%{date}.tar.xz
+BuildRequires:	make
 BuildRequires:	pkgconfig(libnetfilter_queue)
 Requires:	ipset
 
